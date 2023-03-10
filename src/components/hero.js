@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="overflow-x-hidden">
-        <section className=" relative bg-primary bg-[url ('/src/images/hero/1.svg')] bg-center   text-white">
+        <section className=" relative bg-primary bg-[url('/src/images/hero/1.svg')] bg-no-repeat bg-center   text-white">
           <img
             src={BackgroundImage2}
             alt=""
@@ -15,9 +15,9 @@ const HeroSection = () => {
           <img
             src={BackgroundImage3}
             alt=""
-            className="absolute bottom-0 md:right-0  xl:-right-56 md:-[95%] w-[40%]  hidden md:block"
+            className="absolute bottom-0 md:right-0  xl:-right-56 md:w-[60%] xl:w-[40%]  hidden md:block"
           />
-          <div className="flex flex-col gap-8 items-start xl:items-center  xl:justify-center  container h-[84vh] xl:h-[78vh]">
+          <div className="flex flex-col gap-8 items-start xl:items-center  xl:justify-center  container h-[75vh] xl:h-[60vh]">
             <h1 className="text-3xl lg:4xl xl:text-6xl  tracking-widest">
               IMAGINE A PLACE...
             </h1>
